@@ -1,4 +1,4 @@
-# Project Title
+# Sinhala Vocabulary Analysis
 
 Analyzing Complex Words and Providing Simple Meanings in Sinhala
 
