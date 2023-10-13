@@ -23,7 +23,14 @@ def check_grammar(text, letter_combination):
 
     return results
 
+def count_correct_grammar_sentences(english_text):
+    # Check grammar using the previous code
+    results = check_grammar(english_text)
 
+    correct_grammar_count = results.count("Correct Grammar")
+    incorrect_grammar_count = results.count("Incorrect Grammar")
+
+    return correct_grammar_count, incorrect_grammar_count
 # Example usage:
 input_text = "I am a banana. Apples are red. Dogs are fun. The sky is blue."
 letter_combination = "na"
@@ -32,3 +39,8 @@ results = check_grammar(input_text, letter_combination)
 for i, sentence in enumerate(input_text.split('.')):
     print(f"Sentence {i + 1}: {sentence.strip()}")
     print(f"Grammar: {results[i]}\n")
+
+correct_grammar_count, incorrect_grammar_count = count_correct_grammar_sentences(input_text)
+
+print(f"Number of Correct Grammar Sentences: {correct_grammar_count}")
+print(f"Number of Incorrect Grammar Sentences: {incorrect_grammar_count - 1}")
