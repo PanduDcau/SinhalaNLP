@@ -13,5 +13,5 @@ To run this:
     ```
     python Live Recognizer.py 5
 # Output File 
-    ![Screenshot](Audio/Audio_text.png)
+    ![Screenshot](https://github.com/PanduDcau/SinhalaNLP/blob/main/Speech%20To%20Text/Audio/Audio_text.png)
 This will record your talking in 5 seconds and then uploads the audio data to Google to get the desired output.
