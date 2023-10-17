@@ -3,7 +3,7 @@ To run this:
 - `pip3 install -r requirements.txt`
 - To recognize the text of an audio file named `Audio/Happy.wav`:
     ```
-    python recognizer.py 16-122828-0002.wav
+    python recognizer.py `Audio/Happy.wav`
     ```
     **Output**:
     ```
