@@ -13,4 +13,6 @@ To run this:
     ```
     python Live Recognizer.py 5
     ```
+# Output File 
+    ![Screenshot](screenshot.png)
     This will record your talking in 5 seconds and then uploads the audio data to Google to get the desired output.
