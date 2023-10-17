@@ -15,4 +15,3 @@ To run this:
 # Output File 
 This will record your talking in 5 seconds and then upload the audio data to Google to get the desired output.
 ![Output File](https://github.com/PanduDcau/SinhalaNLP/blob/main/Speech%20To%20Text/Audio/Audio_text.png)
-![Flask Hierarchy](https://github.com/Pandula1234/Flask-Projects-Dcau/blob/main/flask.png)
