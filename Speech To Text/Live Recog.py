@@ -3,6 +3,7 @@ import sys
 # pip install -U spacy
 # python -m spacy download en_core_web_sm
 import spacy
+import re
 
 duration = int(input("Duration of Microphone is Open :"));
 
@@ -18,3 +19,14 @@ with sr.Microphone() as source:
     text = r.recognize_google(audio_data)
     print(text)
 
+# Load English tokenizer, tagger, parser and NER
+nlp = spacy.load("en_core_web_sm")
+doc = nlp(text)
+
+w1 = nlp(doc)
+# Define a case-insensitive regex pattern as a string
+# ans1 = r"(?i)integer pointer"
+w2 = nlp("Integer Pointer")
+
+answer1 = w1.similarity(w2)
+print(answer1)
