@@ -1,5 +1,8 @@
 import speech_recognition as sr
 import sys
+# pip install -U spacy
+# python -m spacy download en_core_web_sm
+import spacy
 
 duration = int(input("Duration of Microphone is Open :"));
 
@@ -14,3 +17,4 @@ with sr.Microphone() as source:
     # convert speech to text
     text = r.recognize_google(audio_data)
     print(text)
+
