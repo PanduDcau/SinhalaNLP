@@ -1,6 +1,7 @@
 # [How to Convert Speech to Text in Python](https://www.thepythoncode.com/article/using-speech-recognition-to-convert-speech-to-text-python)
 To run this:
 - `pip3 install -r requirements.txt`
+- `pip install -r requirements.txt`
 - To recognize the text of an audio file named `Audio/Happy.wav`:
     ```
     python recognizer.py `Audio/Happy.wav`
